@@ -6,6 +6,6 @@
     <bean id="tata" class="com.mma.springmvc.classes.Tata" />
 
     <bean class="com.mma.springmvc.classes.CarDetails" id="cd">
-        <property name="car" ref="kia" />
+        <property name="car" ref="tata" />
     </bean>
 </beans>
